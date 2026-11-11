@@ -1,0 +1,33 @@
+TOUCHLINE v16 — shipped character / motion provenance
+Verified 2026-10-28. This manifest covers character and motion sources; other application dependency notices remain separate.
+
+1. CHARACTER — QUATERNIUS, CC0 1.0
+Source: Superhero_Male_FullBody.gltf in Universal Base Characters FREE Standard.
+Official: https://quaternius.com/packs/universalbasecharacters.html
+Download: https://quaternius.itch.io/universal-base-characters
+Archive SHA256: fdbf1804c90dfc1ea03e992bff7da2dfd1a79318e13270a660180f9308455f40
+Runtime: dist/athlete-data.mjs, dist/athlete-textures.mjs, dist/athlete-model.mjs.
+Used: male body, eyes and eyebrows; T_Superhero_Male_Dark, T_Eye_Brown and T_Hair_1_BaseColor. Football shirt, shorts and short hair meshes are cut/remodelled derivatives of the CC0 source; the hair-atlas upper area is procedural. Native 69-bone weights are retargeted to the retained 42-controller API. Existing project-authored football boots are reshaped with slimmer uppers, soles and heels; the original front contact surface is retained. No MakeHuman model/texture buffers remain, confirmed by the model authoring agent.
+
+2. GAIT — QUATERNIUS UAL1, CC0 1.0
+Official: https://quaternius.com/packs/universalanimationlibrary.html
+Download: https://quaternius.itch.io/universal-animation-library
+Archive SHA256: cc73fc4e495b82958207316596317a3f40b9fa38065bde1027937452da537724
+Used clips only: Idle_Loop, Walk_Loop, Jog_Fwd_Loop, Sprint_Loop from UAL1_Standard.glb.
+Runtime: dist/locomotion-clips.mjs, dist/locomotion-library.mjs and dist/motion.mjs. These contain sampled/retargeted phase curves and contact-constrained adaptation, not full raw animation packs. These clips are artist-authored animations, not claimed to be motion capture.
+Both Quaternius sources use CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/
+Exact archive license copies: licenses/quaternius-base-characters-license.txt and licenses/quaternius-ual1-license.txt in the research provenance folder.
+Suggested credit: Character and authored gait sources: Quaternius (CC0 1.0), adapted for TOUCHLINE.
+
+3. KICK — CMU GRAPHICS LAB, CUSTOM PERMISSION (NOT CC0)
+Official data: http://mocap.cs.cmu.edu/subjects/10/10.asf and http://mocap.cs.cmu.edu/subjects/10/10_03.amc
+AMC SHA256: ffc0f091c8eeb3392797933e23612540a711a07f9a7a49d62c7d1c6d0128a290
+Permission: http://mocap.cs.cmu.edu/faqs.php and http://mocap.cs.cmu.edu/
+Runtime: dist/kick-reference.mjs; generation: work/v16-assets/build-kick-reference.mjs.
+Only trial10_03, source .75–1.60 seconds (103 original 120Hz frames), is included as a short direction/position curve. Mild centered five-tap smoothing and cubic interpolation are applied. Source horizontal root travel is separated, heading normalized and side order is right/left. The game adapts measured upper-body coordination while retaining its football support-foot and ball-contact IK. Other CMU trials are research-only and are not bundled.
+u=0 corresponds to an inferred low-height toe-speed peak at1.13333s, not an observed ball-contact label; there is no ball marker. CMU permits copying, modification, redistribution and inclusion in commercial products, but prohibits reselling the motion data itself, including converted data.
+The data used in this project was obtained from mocap.cs.cmu.edu.
+The database was created with funding from NSF EIA-0196217.
+
+RESEARCH-ONLY / EXCLUDED
+UAL2 (including its generic Slide clips), other CMU trials, downloaded full archives, raw itch pages/session form tokens, FIFA/World Athletics/EA/Konami coaching or marketing media and source-viewer code are research evidence only. Do not bundle the complete v16-references folder. No Mixamo assets were selected. Preserve this clean manifest and applicable notices with selected runtime derivatives.

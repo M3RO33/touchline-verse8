@@ -1,0 +1,53 @@
+{
+  "gameVersion": "1.14.0",
+  "baseline": "Touchline v16 fixture lobby, bottom VAR console, rebuilt athlete and sourced motion",
+  "files": {
+    "app.js": "e3991090db513a1abe49ab3168dac9aae84015e60b4e20c1ceff74ecb40e43ef",
+    "athlete-anchors.mjs": "6e0f91f1645102d303af547e409b9a78f559d1285c0c6dfd6fe23e90d2141ac5",
+    "athlete-data.mjs": "ff8cf4e08c7ae157691fac8e689100477509e5bae4079c89693de104fdb45782",
+    "athlete-layout.mjs": "4b59957ab33c3962e4639cf1fffae63b7e94933e7019d241b9aeb5b21944b4b9",
+    "athlete-model.mjs": "459599636555d422919a616d1e0d1dca6be94936dd1c608d43510eedfb9ee4fb",
+    "athlete-resources.mjs": "7a8c61760578bf89e4b3920668d401452653ccc0e03a38a286fa8cb2c75f657d",
+    "athlete-textures.mjs": "40b4b2f26aef65903c08ce2deda8f480922ce64468c602fa0cca896899912356",
+    "career.mjs": "a4c79d410de6f508e4c4bb9fc135d6d830d5f66d892a4a286b877aacb49a0cf8",
+    "choreography.mjs": "3df21a679fe3f8a104c0b58d6a45141c584069b6d089fcb4dac4311fb4f34dcd",
+    "first-whistle.mjs": "d2711f76c2f62a61112b849e7c27d5b28e093a87054146b983ab311711253f65",
+    "flow.mjs": "52ab9fc4151fba141b3ada943d28c7363993ff5a483d8171a9f55de3da127d58",
+    "kick-reference.mjs": "1679767ce37e5b61546d0d1933d3392b200a376f386c876ed85091edeeb2635c",
+    "locomotion-clips.mjs": "53bf98aa7927e941c08a33d3f8d03f137427a1a976f63f516fa79dc36576d5cd",
+    "locomotion-library.mjs": "c8b3df503eb43c1cb4a661222807f03fa08c93f75251cbca748342964591052a",
+    "match-clock.mjs": "5a0d2901b1a77b3085e4cfc3e170cd843bd7ea19433ff980c2fc20790b36d77b",
+    "mechanics.mjs": "0d0cdea1cac2d67025049db55a1cb9ee9e0dd439960d86a4e1ea19eeea0af190",
+    "motion.mjs": "61580dea11436c993bb7f72d2cc9be71564cc23709e53b4a4377593a902237da",
+    "physics.mjs": "d502d22c8426ca8c82d926d35b327a0feba7974e69ffc62ee85a023dfb332b9c",
+    "players.js": "a0cc6d2566671125e203fe0a2ec5b9221a6c9205fb894e4d1c6410cb585c4ce6",
+    "review-timer.mjs": "973291a7077c05346baf86305b9460755dc42a5302fe60981ab1940468f649f9",
+    "rulebook.mjs": "77ce943b809c00fa6863cc653affb7bfbe35994ea495ef2a3c42d900565dffed",
+    "scene.js": "f269fe4d49aacee435b0fedca0fb4912300895761fdb490f0633b0ee0c839b53",
+    "tactics.mjs": "a6b422fccf24bca88ee8d40d240825617d031ebbe38b388abfc2e224347b48eb",
+    "venue.mjs": "c8d362bc9e60e7910b3bf35a764815f3df73f1aad268fcc0c22f5239fb392c44",
+    "visuals.js": "75f1ac67bc4ea5057ef71672a8653d3f96805c8211dfb1cd77dd47e06dfb1ca8"
+  },
+  "assets": {
+    "athlete-geometry.bin": {
+      "bytes": 1593050,
+      "sha256": "ab1c4bd9d7d40613b253dd0ece7dc2d19d133d0f6fa6ac6dc5cac5c55b65923f"
+    },
+    "eye.jpg": {
+      "bytes": 5976,
+      "sha256": "f5bc3c888f65a4c7b11dfd515909be5ceaf633b6f89405b833e57d01e308e0ac"
+    },
+    "hair-atlas.png": {
+      "bytes": 267268,
+      "sha256": "be4949b230248d1751e111ba251390013d54334aff7c002e7eaab66d91ec9fad"
+    },
+    "skin-light.jpg": {
+      "bytes": 295979,
+      "sha256": "0749ae503819197c0b20fe2c407672e40f09e0b37ccb2ef2d7f4cfbf336c0762"
+    },
+    "skin.jpg": {
+      "bytes": 199464,
+      "sha256": "f1dcd6d8253df8a84b8a35be108c3f989edce011f3659abc1a8b6711f962a820"
+    }
+  }
+}

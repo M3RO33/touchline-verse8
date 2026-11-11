@@ -1,0 +1,51 @@
+TOUCHLINE v16 — model, texture and animation credits
+
+CHARACTERS
+Quaternius: Universal Base Characters, Standard (free) version.
+Original asset: Superhero_Male_FullBody.gltf, with its body, eyes and eyebrows.
+License: CC0 1.0 Universal (public domain dedication).
+https://quaternius.com/packs/universalbasecharacters.html
+https://creativecommons.org/publicdomain/zero/1.0/
+The original license is preserved in licenses/LICENSE-Quaternius-characters.txt.
+
+Textures: T_Superhero_Male_Dark, T_Eye_Brown and T_Hair_1_BaseColor, from the
+same CC0 character pack. Resized/encoded for the game. A skin tone variant,
+short-hair texture band and team uniforms were authored by TOUCHLINE.
+
+Changes to the CC0 character by TOUCHLINE:
+- Slimmed superhero limb/chest mass to adult football-player proportions.
+- Retargeted the native T-pose weights to the game's 42-controller skeleton.
+- Corrected palm/finger rest-plane alignment and thumb placement.
+- Tailored a football shirt and shorts from the weighted native surface.
+- Authored continuous cloth torso topology, removing anatomical navel folds.
+- Added fitted short hair, team jerseys, kit UVs, palette and collar openings.
+- Corrected shorts pelvis/thigh weights; removed permanently hidden body faces.
+- Simplified distant geometry while preserving shared buffers and skeletons.
+- Added deterministic garment/turf contact correction during falls.
+
+The football boots are original TOUCHLINE procedural geometry, reshaped with
+slimmer uppers/soles, shorter heels and smaller team-colour panels. Their front
+contact surface is retained to keep the visible ball contact and VAR consistent.
+No MakeHuman anatomy, clothing, skin, eyes or hair are shipped in this version.
+
+ANIMATION REFERENCES USED IN THE RUNTIME
+Quaternius: Universal Animation Library 1, Standard, CC0 1.0.
+Source clips: Idle_Loop, Walk_Loop, Jog_Fwd_Loop and Sprint_Loop.
+Source world-joint trajectories were converted into deterministic body/arm
+curves. Football foot planting and ball-contact inverse kinematics remain in
+TOUCHLINE's solver. This is retargeted animation data, not a claim that all
+football motions are captured performances.
+https://quaternius.com/packs/universalanimationlibrary.html
+
+Carnegie Mellon University Graphics Lab Motion Capture Database:
+CMU subject 10, trial 03 (soccer kick), retargeted torso and arm timing curves.
+The database permits use, modification and redistribution; the data itself
+must not be resold. See the full distribution notice in the license records.
+https://mocap.cs.cmu.edu/
+https://mocap.cs.cmu.edu/faqs.php
+
+Tackles, reactions, gestures, foot/ball trajectories and rewind reconstruction
+also use original TOUCHLINE procedural animation and authored contact timing.
+
+Three.js 0.180.0: MIT, see vendor/LICENSE-three.txt (source game) or
+licenses/LICENSE-three.txt (Verse8 package).
